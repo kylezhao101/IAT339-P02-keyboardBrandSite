@@ -492,7 +492,7 @@ label {
 }
 
 .payment-page{
-  padding:30%;
+  padding:10%;
 }
 
 @media screen and (max-width:900px) {
@@ -510,9 +510,6 @@ label {
   .shipping-recipient {
     width: 100%;
     flex-grow: 1;
-  }
-  .payment-page{
-    padding:10%;
   }
 }
 
