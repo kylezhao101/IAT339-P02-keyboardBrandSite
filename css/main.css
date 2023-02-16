@@ -491,6 +491,10 @@ label {
   flex-grow: 1;
 }
 
+.payment-page{
+  padding:10%;
+}
+
 @media screen and (max-width:900px) {
   .shipping-details {
     display: flex;
@@ -585,6 +589,13 @@ fieldset {
 .checkout-summary {
   margin-top: 2rem;
   margin-left: auto;
+}
+
+.checkout-summary a{
+  text-decoration: none;
+}
+.checkout-summary a:hover{
+  text-decoration: none;
 }
 
 @media screen and (max-width:1000px) {

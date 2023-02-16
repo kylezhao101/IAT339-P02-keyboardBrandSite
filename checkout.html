@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+    <!--
+    Github Repository
+    https://github.com/kylezhao101/IAT339-P02-keyboardBrandSite
+    --> 
+
+    <head>
+        <meta charset="utf-8">
+        <title>P02 - Brand Website</title>
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Space+Mono&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Main Navigation Bar -->
+        <nav class="main-nav">
+            <ul class="nav-bar-links">
+                <li>
+                    <a class="button-nav" href="index.html">Home</a>
+                </li>
+                <li>
+                  <a class="button-nav" href="featuredPage.html">About Us</a>
+                </li>
+                <li>
+                  <a class="button-nav" href="shop-all.html">Shop All</a>
+                </li>
+                <li>
+                    <a class="button-nav" href="cart.html">View Cart</a>
+                </li>            
+            </ul>
+        </nav>
+
+        <div class="payment-page">
+            <form action="/url" method="GET">
+                <fieldset class="shipping-details">
+                    <legend>Shipping Details</legend>
+                    <div class="shipping-address">
+                        <label>
+                        Country
+                        <input type="text" name="country" placeholder="Canada">
+                    </label>
+                    <label>
+                        Address
+                        <input type="text" name="Address" placeholder="123 3 AVE Vancouver BC">
+                    </label>
+                    <label>
+                        Zip Code
+                        <input type="text" name="Zip code" placeholder="123 ABC">
+                    </label>
+                    </div>
+                    <div class="shipping-recipient">
+                        <label>
+                        Full Name
+                        <input type="text" name="Full name" placeholder="First Last">
+                        </label>
+                        <label>
+                        Email
+                        <input type="text" name="Email" placeholder="abc@email.com">
+                        </label>
+                    </div>                            
+                </fieldset>
+            
+                <fieldset>
+                    <legend>Payment</legend>
+                    <div class="payment-details">
+                        <div>
+                            <label>
+                                Name on Card
+                                <input type="text" name="cardholder" placeholder="John Doe">
+                            </label>
+                            <label>
+                            Credit card number
+                            <input type="text" name="card number" placeholder="1234-1234-1234-1234">
+                            </label>
+                        </div>
+                        <div class="payment-expiry">
+                            <label>
+                                Expiry Month
+                                <input type="text" name="exp month" placeholder="05">
+                            </label>
+                            <label>
+                                Expiry Year
+                                <input type="text" name="exp year" placeholder="2027">
+                            </label>
+                            <label>
+                                CVV       
+                                <input type="text" name="CVV" placeholder="123">
+                            </label>
+                        </div>
+                    </div>              
+                </fieldset>
+            </form>    
+            <h3>Total:</h3>  
+            <input class="button-submit-reset" type="submit" value="Complete Checkout">   
+        </div>
+        
+    </body>
+
+</html>
