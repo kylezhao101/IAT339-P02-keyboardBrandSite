@@ -492,14 +492,10 @@ label {
 }
 
 .payment-page{
-<<<<<<< Updated upstream
-  padding:10%;
-=======
   padding-top:5%;
   padding-bottom:10%;
-  padding-left:30%;
-  padding-right:30%;
->>>>>>> Stashed changes
+  padding-left:20%;
+  padding-right:20%;
 }
 
 @media screen and (max-width:900px) {
@@ -517,6 +513,12 @@ label {
   .shipping-recipient {
     width: 100%;
     flex-grow: 1;
+  }
+  .payment-page{
+    padding-top:5%;
+    padding-bottom:10%;
+    padding-left:10%;
+    padding-right:10%;
   }
 }
 
