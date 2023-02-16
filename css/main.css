@@ -539,6 +539,9 @@ fieldset {
 .checkout-cart {
   display: flex;
   flex-direction: column;
+  padding-top:100px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .checkout-cart h4 {
