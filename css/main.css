@@ -436,6 +436,18 @@ label {
   height: 45vw;
 }
 
+.parallax{
+  padding-top: 10vw;
+  padding-left: 10%;
+  padding-bottom: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1618586810102-aaa7049200c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height:1000px;
+}
+
 .product-listings-gallery-card-second {
   padding-top: 10vw;
   padding-left: 10%;
@@ -472,6 +484,16 @@ label {
   }
 }
 
+.company-event{
+  padding-left: 10%;
+  padding-right:10%;
+}
+.company-event .product-listings-card-link{
+  padding-left: 0;
+}
+.company-event-card{
+  border-top: 0.2rem rgb(236, 234, 236) solid;
+}
 /*
   Shipping and payment information -----------
   */
