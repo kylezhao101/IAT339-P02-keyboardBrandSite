@@ -424,12 +424,6 @@ label {
   flex-direction: column;
 }
 
-.products-gallery {
-  display: flex;
-  flex-direction: column;
-  max-height: 200px;
-}
-
 .product-listings-gallery-card {
   padding-top: 10vw;
   padding-left: 10%;
