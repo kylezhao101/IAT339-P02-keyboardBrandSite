@@ -718,7 +718,7 @@ fieldset {
   */
 .product-page-details {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -766,4 +766,16 @@ fieldset {
   .product-page-details-selection {
     padding-left: 0rem;
   }
+}
+.customer-review{
+  padding-right:40%;
+}
+.product-page-review{
+  padding-left:10%;
+  padding-right:10%;
+}
+.review-input-box{
+  line-height: 28px;
+  padding:5pt;
+ 
 }
