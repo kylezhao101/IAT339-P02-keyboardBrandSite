@@ -821,6 +821,10 @@ fieldset {
     }
 }
 
+.products-card-img{
+    width: 100%;
+}
+
 footer{
     margin-top: 10rem;
     padding: 3rem;
