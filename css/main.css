@@ -798,6 +798,29 @@ fieldset {
   padding:5pt;
 }
 
+.productList_container{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+.productList_container div{
+    margin-right: 1rem;
+}
+
+.products-card {
+    flex: 1;
+    min-width: 200px;
+    padding: 1rem;
+    color: #000000;
+    text-decoration-line: none;
+    font-family:"Century Gothic", Arial, "Arial Black", "Arial Narrow", "sans-serif";
+}
+@media (max-width: 1200px) {
+    .productList_container{
+        flex-wrap: wrap;
+    }
+}
+
 footer{
     margin-top: 10rem;
     padding: 3rem;
