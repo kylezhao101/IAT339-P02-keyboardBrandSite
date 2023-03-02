@@ -799,6 +799,7 @@ fieldset {
 }
 
 .productList_container{
+    margin-top: 5rem;
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
@@ -855,14 +856,15 @@ footer{
 .footer-link-container{
     flex:1;
     margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 4rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-end;
 }
-.footer-link{
-    color: white;
-    margin-right: 10%;
+
+.footer-link-container .button-nav-magenta{
+    padding: 0.5rem;
+    margin: 0rem;
 }
