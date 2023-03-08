@@ -525,9 +525,10 @@ nav {
 }
 
 .company-event{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   padding-left: 10%;
   padding-right:10%;
-  padding-bottom:15rem;
 }
 .company-event .product-listings-card-link{
   padding-left: 0;
