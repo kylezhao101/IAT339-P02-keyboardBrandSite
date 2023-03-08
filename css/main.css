@@ -659,8 +659,13 @@ fieldset {
 }
 
 .checkout-summary {
-  margin-top: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 0;
   margin-left: auto;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .checkout-summary a{
@@ -668,6 +673,13 @@ fieldset {
 }
 .checkout-summary a:hover{
   text-decoration: none;
+}
+
+.checkout-category{
+  width: 30%;
+}
+.checkout-number{
+  margin-left: 2rem;
 }
 
 @media screen and (max-width:1000px) {
