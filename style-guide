@@ -245,40 +245,6 @@
     <section id="combined_elements">
       <h2>Combined Elements</h2>
 
-      <section class="element">
-        <h3>Main Navigation - aligned right</h3>
-        <h4>CSS selectors:</h4>
-        <p>main-nav, nav-bar-links, .button-nav </p>
-
-        <h4>Sample code:</h4>
-        <code>
-              &lt;nav class="main-nav"&gt;
-              <br>&lt;ul class="nav-bar-links"&gt;
-              <br>&lt;li&gt;&lt;a href="#" class="button-nav"&gt;Button1&lt;/a&gt;&lt;/li&gt;
-              <br>&lt;li&gt;&lt;a href="#" class="button-nav"&gt;Button2&lt;/a&gt;&lt;/li&gt;
-              <br>&lt;li&gt;&lt;a href="#" class="button-nav"&gt;Button3&lt;/a&gt;&lt;/li&gt;
-              &lt;/ul&gt;
-              <br>&lt;/nav&gt;
-        </code>
-
-        <h4>Rendered element:</h4>
-
-        <nav class="main-nav">
-          <ul class="nav-bar-links">
-            <li>
-              <a class="button-nav" href="#">Featured</a>
-            </li>
-            <li>
-              <a class="button-nav" href="#">Shop All</a>
-            </li>
-            <li>
-              <a class="button-nav" href="#">View Cart</a>
-            </li>            
-          </ul>
-        </nav>
-
-      </section>
-
       <section class="element" id="product_listing">
         <h3>Product Listing/card</h3>
         <h4>CSS selector:</h4>
@@ -406,87 +372,6 @@
           
         </div>
         
-        <h4>Nav bar, product gallery and scrollable gallery rendered:</h4>
-
-        <nav class="main-nav">
-          <ul class="nav-bar-links">
-            <li>
-              <a class="button-nav" href="#">Featured</a>
-            </li>
-            <li>
-              <a class="button-nav" href="#">Shop All</a>
-            </li>
-            <li>
-              <a class="button-nav" href="#">View Cart</a>
-            </li>            
-          </ul>
-        </nav>
-
-        <div class="product-listings-gallery">
-          <div class="product-listings-gallery-card">
-            <div class="product-listing-content">
-              <h2><span>Product name</span></h2>
-              <p><span>description here</span></p>
-            </div>
-            <div class="product-listings-card-link">            
-              <h3><span>$123.00</span></h3>
-              <a class="button-nav-magenta-border" href="#">Learn More</a>
-            </div>
-          </div>
-
-          <div class="product-listings-gallery-card-second">
-            <div class="product-listing-content">
-              <h2><span>Product name</span></h2>    
-              <p><span>description here</span></p>
-            </div>
-            <div class="product-listings-card-link">            
-              <h3><span>$123.00</span></h3>
-              <a class="button-nav-magenta-border" href="#">Learn More</a>
-            </div>
-          </div>
-          <div class="product-listings">
-
-            <div class="product-listings-card">
-  
-              <img class="product-listing-img link-image" src="img/Bernin Uben Keyboard.jpeg">
-              <div class="product-listing-content">
-                <h2>Product name</h2>    
-              </div>
-              <div class="product-listings-card-link">            
-                <h3>$123.00</h3>
-                <a class="button-nav-magenta" href="#">Learn More</a>
-              </div>
-            </div>
-  
-            <div class="product-listings-card">
-              <img class="product-listing-img link-image" src="img/White keyboard.jpeg">
-  
-              <div class="product-listing-content">
-                <h2>Product name</h2>        
-              </div>
-              <div class="product-listings-card-link">            
-                <h3>$123.00</h3>
-                <a class="button-nav-magenta" href="#">Learn More</a>
-              </div>
-            </div>
-  
-            <div class="product-listings-card">
-  
-              <img class="product-listing-img link-image" src="img/Paul keyboard.jpeg">
-  
-              <div class="product-listing-content">
-                <h2>Product name</h2>
-              </div>
-              <div class="product-listings-card-link">            
-                <h3>$123.00</h3>
-                <a class="button-nav-magenta" href="#">Learn More</a>
-              </div>
-            </div>
-  
-            
-            
-          </div>
-
       </section>
 
       <section class="element">
@@ -524,19 +409,6 @@
           <br> <br>&lt;/div>
         </code>
         <h4>Rendered element:</h4>
-        <nav class="main-nav">
-          <ul class="nav-bar-links">
-            <li>
-              <a class="button-nav" href="#">Featured</a>
-            </li>
-            <li>
-              <a class="button-nav" href="#">Shop All</a>
-            </li>
-            <li>
-              <a class="button-nav" href="#">View Cart</a>
-            </li>            
-          </ul>
-        </nav>
 
         <div class="checkout-cart">
 
@@ -643,20 +515,6 @@
         </code>
 
         <h4>Rendered element:</h4>
-        <nav class="main-nav">
-          <ul class="nav-bar-links">
-            <li>
-              <a class="button-nav" href="#">Featured</a>
-            </li>
-            <li>
-              <a class="button-nav" href="#">Shop All</a>
-            </li>
-            <li>
-              <a class="button-nav" href="#">View Cart</a>
-            </li>            
-          </ul>
-        </nav>
-
         <div class="payment-page">
           <form action="/url" method="GET">
             <fieldset class="shipping-details">

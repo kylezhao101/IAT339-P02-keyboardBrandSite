@@ -2,20 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-nav {
-  position: -webkit-sticky;
-  position: sticky;
-  width:100vw;
-  top: 0;
-  right: 0;
-  z-index: 100;
-  background-color: rgb(255, 2555, 255, 1);
-}
-
-.main-nav {
-  position: fixed;
-}
-
 body {
   font-family: 'Space Mono', monospace;
   margin-left: auto;
@@ -23,7 +9,6 @@ body {
   margin-bottom:0;
 
 }
-
 /*
 .element {
     padding-bottom: 5rem;
@@ -321,17 +306,24 @@ label {
     COMBINED ELEMENTS -------------------
   */
 
-.main-nav {
-  display: flex;
-  justify-content: flex-end;
-  border-bottom: 0.15rem solid rgb(236, 234, 236);
-  padding-right: 10%;
+nav {
+    width:100vw;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgb(255, 2555, 255, 1);
+    display:flex;
+    border-bottom: 0.15rem solid rgb(236, 234, 236);
+    padding-right: 10%;
+    position: fixed;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-bar-links {
   display: flex;
   column-gap: 2.5rem;
-  list-style-type: none;
+  list-style: none; 
 }
 
 .nav-bar-links a {
@@ -346,6 +338,49 @@ label {
   color: #FE5D9F;
 }
 
+#icon{
+  cursor: pointer;
+  
+}
+#icon svg {
+  color:black;
+  height:50px;
+  transition-duration: 0.3s;;
+}
+#menu-toggle, #icon{
+  display:none;
+}
+#icon:hover svg{
+  color:#FE5D9F
+}
+@media screen and (max-width: 700px) {
+  .nav-bar-links{
+    flex-direction: column;
+    width:100%;
+    background-color: white;
+    display:none;
+  }
+  .nav-bar-links li{
+    padding-top:10px;
+    align-self: center;   
+  }
+  nav{
+    align-items: end;
+    padding-right:0px;
+    flex-direction: column;
+  }
+  #menu-toggle, #icon{
+    display:block;
+    padding-right: 10px;;
+  }
+  #menu-toggle{
+    display:none;
+  }
+  #menu-toggle:checked~.nav-bar-links{
+    display:flex;
+  }
+
+}
 /*
   Scrollbar learnt from :
   https://webdesign.tutsplus.com/tutorials/horizontal-scrolling-card-ui-flexbox-and-css-grid--cms-41922

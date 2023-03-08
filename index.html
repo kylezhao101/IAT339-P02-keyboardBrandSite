@@ -19,7 +19,14 @@
 
     <body>
         <!-- Main Navigation Bar -->
-        <nav class="main-nav">
+        <nav>
+            <input type="checkbox" id="menu-toggle"/>
+            <!-- svg from https://heroicons.com/-->
+            <label for="menu-toggle" class="hamburger" id="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg> 
+            </label>
             <ul class="nav-bar-links">
                 <li>
                     <a class="button-nav" href="index.html">Home</a>
@@ -53,7 +60,7 @@
             <h2>New Arrivals</h2>
             <div class="product-listings">
                 <div class="product-listings-card">
-                    <img class="product-listing-img" src="img/White keyboard.jpeg" alt="#">
+                    <img class="product-listing-img link-image" src="img/White keyboard.jpeg" alt="#">
                     <div class="product-listing-content">
                         <h2>LUX V1S</h2>        
                     </div>
@@ -63,7 +70,7 @@
                     </div>
                 </div>
                 <div class="product-listings-card">
-                    <img class="product-listing-img" src="img/Bernin Uben Keyboard.jpeg" alt="#">
+                    <img class="product-listing-img link-image" src="img/Bernin Uben Keyboard.jpeg" alt="#">
                     <div class="product-listing-content">
                         <h2>Alice V1X</h2>    
                     </div>
@@ -73,7 +80,7 @@
                     </div>
                 </div>
                 <div class="product-listings-card">
-                    <img class="product-listing-img" src="img/Paul keyboard.jpeg" alt="#">
+                    <img class="product-listing-img link-image" src="img/Paul keyboard.jpeg" alt="#">
                     <div class="product-listing-content">
                         <h2>FLX V1</h2>
                     </div>
