@@ -527,6 +527,7 @@ nav {
 .company-event{
   padding-left: 10%;
   padding-right:10%;
+  padding-bottom:15rem;
 }
 .company-event .product-listings-card-link{
   padding-left: 0;
@@ -748,6 +749,10 @@ fieldset {
   column-gap: 0.5rem;
 }
 
+.imagery-citations {
+  padding-right:10%;
+}
+
 .imagery a {
   flex-basis: 20rem;
   flex-grow: 1;
@@ -828,6 +833,7 @@ fieldset {
 }
 .customer-review{
   padding-right:80%;
+  margin-bottom:5rem;
 }
 .product-page-review{
   padding-left:10%;
@@ -836,6 +842,16 @@ fieldset {
 .review-input-box{
   line-height: 28px;
   padding:5pt;
+  width:70vw;
+}
+@media screen and (max-width:700px){
+  .review-input-box{
+    line-height: 28px;
+    padding:5pt;
+  }
+  .customer-review{
+    padding-right:10%;
+  }
 }
 
 .productList_container{
@@ -867,6 +883,9 @@ fieldset {
 }
 
 
+.bodyBlock{
+  margin-bottom:5rem;
+}
 
 .productList_container .product-listings-card-link{
     padding-left: 1rem;
@@ -880,7 +899,6 @@ fieldset {
 }
 
 footer{
-    margin-top: 10rem;
     padding-top:5rem;
     padding-left: 10%;
     padding-right: 10%;
