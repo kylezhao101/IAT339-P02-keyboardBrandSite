@@ -431,6 +431,7 @@ label {
   }
   .products-card {
       margin-bottom: 3rem;
+      padding-bottom: 1rem;
   }
 }
 
@@ -911,10 +912,10 @@ fieldset {
 .products-card {
     flex: 1;
     min-width: 200px;
-    padding: 1rem;
+    padding-bottom: 1rem;
     color: #000000;
     text-decoration-line: none;
-    font-family:"Century Gothic", Arial, "Arial Black", "Arial Narrow", "sans-serif";
+    border:1px solid rgb(201, 201, 201);
 }
 @media (max-width: 1200px) {
     .productList_container{
