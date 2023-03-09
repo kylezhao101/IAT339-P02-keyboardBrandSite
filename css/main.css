@@ -415,12 +415,18 @@ nav {
 }
 
 @media screen and (max-width: 800px) {
-  .product-listings-card {
-    max-width: 40%;
+  .productList_container{
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+  .products-card {
+      margin-bottom: 3rem;
   }
 
   .product-listing-content {
-    height: 20vw;
+  }
+    
+  .product-listings-card-link{
   }
 }
 
@@ -940,6 +946,17 @@ footer{
 .footer-link-container .button-nav-magenta{
     padding: 0.5rem;
     margin: 0rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-text{
+        margin-left: 0rem;
+        margin-bottom: 3rem;
+    }
+    .footer-link-container{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
 }
 
 .style-guide{
