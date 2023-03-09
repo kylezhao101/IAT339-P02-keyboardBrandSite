@@ -956,6 +956,7 @@ footer{
     .footer-link-container{
         margin-left: 0rem;
         margin-right: 0rem;
+        text-align: right;
     }
 }
 
