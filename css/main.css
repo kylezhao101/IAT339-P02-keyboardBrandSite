@@ -457,7 +457,7 @@ label {
 }
 
 .product-listing-img {
-  height: 20vw;
+  height: 15vw;
   object-fit: cover;
 }
 
@@ -496,13 +496,13 @@ label {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  min-height:1000px;
+  min-height:900px;
 }
 
 .product-listings-gallery-card-second {
   padding-top: 10vw;
   padding-left: 10%;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
   flex-grow: 1;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1618586810102-aaa7049200c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -782,6 +782,9 @@ fieldset {
   padding-left: 10%;
   padding-right: 10%;
 }
+.product-page-details-images{
+  display:flex;
+}
 .product-page-kit{
   margin:10%;
 }
@@ -803,15 +806,22 @@ fieldset {
   background-image: url(https://images.unsplash.com/photo-1597823968481-20de5e1269c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
   background-position: center;
   background-size: cover;
-  width: 50%;
-  height:30vw;
+  width:40vw;
+  height:30em;
+}
+.product-page-details-side{
+  padding-left:1rem;
+  width:30vw;
+}
+.product-page-details-bottom{
+  display:none;
 }
 .product-page-details-img-selection-lux-v1s {
   background-image: url(https://images.unsplash.com/photo-1640484862843-03c8c0c49d96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
   background-position: center;
   background-size: cover;
-  width: 50%;
-  height:30vw;
+  width:40vw;
+  height:30em;
 }
 
 .product-page-details-img-alice-v1q {
@@ -839,7 +849,21 @@ fieldset {
   padding-bottom:2rem;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1400px) {
+  
+  .product-page-details-img-selection-alice-v1q {
+    width:100vw;
+  }
+  .product-page-details-img-selection-lux-v1s {
+    width:100vw;
+  }
+  .product-page-details-side{
+    display:none;
+  }
+  .product-page-details-bottom{
+    display:block;
+  }
+
   .product-page-details {
     flex-direction: column;
   }
