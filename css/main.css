@@ -425,6 +425,9 @@ label {
 }
 
 @media screen and (max-width: 800px) {
+  .product-listings-card{
+    max-width: 80%;
+  }
   .productList_container{
       margin-bottom: 0;
       margin-top: 0;
@@ -515,15 +518,17 @@ label {
 
 @media screen and (max-width:700px) {
   .product-listings-gallery-card {
+    padding-top: 10vw;
     display: flex;
-    padding-right: 10%;
-    
+    flex-direction:column;
+    height:40vh;    
   }
 
   .product-listings-gallery-card-second {
+    padding-top: 10vw;
     display: flex;
-    padding-right: 10%;
-    padding-bottom:5rem;
+    flex-direction:column;
+    height:40vh;    
   }
 }
 
@@ -559,7 +564,7 @@ label {
 }
 
 .payment-page{
-  padding-top:5%;
+  padding-top:10rem;
   padding-bottom:10%;
   padding-left:20%;
   padding-right:20%;
@@ -582,7 +587,7 @@ label {
     flex-grow: 1;
   }
   .payment-page{
-    padding-top:5%;
+    padding-top:10rem;
     padding-bottom:10%;
     padding-left:10%;
     padding-right:10%;
@@ -687,6 +692,9 @@ fieldset {
 }
 
 @media screen and (max-width:1000px) {
+  .checkout-summary{
+    width:100%;
+  }
   .checkout-item {
     display: flex;
     flex-direction: column;
