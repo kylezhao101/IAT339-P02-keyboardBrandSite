@@ -461,12 +461,12 @@ label {
 }
 
 .product-listing-img {
-  height: 15vw;
+  height: 20vh;
   object-fit: cover;
 }
 
 .product-listing-content {
-  padding-top: 5rem;
+  padding: 1rem;
   justify-content: center;
 }
 
@@ -541,9 +541,6 @@ label {
     display: flex;
     flex-direction:column;
     height:40vh;    
-  }
-  .product-listings-gallery-card-shop-all{
-    min-height:10px;
   }
 }
 
